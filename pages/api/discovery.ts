@@ -2,9 +2,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 
 export default function handler(_req: NextApiRequest, res: NextApiResponse) {
   res.json({
-    name: "SEO GEO Visual Review",
-    description: "Displays SEO and GEO audit data in an interactive format.",
-    tools: [
+    functions: [
       {
         id: "seo-geo-review",
         name: "SEO GEO Viewer",
